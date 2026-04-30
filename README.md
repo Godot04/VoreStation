@@ -4,39 +4,39 @@
 
 # Adventure Time: Space Station 14
 
-Space Station 14 это ремейк SS13, который работает на собственном движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
+Space Station 14 is a remake of SS13 that runs on its own engine, [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), written in C#.
 
-Adventure Time - это проект русскоязычного сервера по Space Station 14, целью которого является полный перевод игры на русский язык, поддержка актуальных изменений из основного репозитория, а так же добавление собственных изменений по необходимости.
+Adventure Time is a Russian-language Space Station 14 server project. Its goal is to fully translate the game into Russian, keep up with the latest changes from the upstream repository, and add its own changes when necessary.
 
-## Ссылки
-[Наш Discord](https://discord.gg/NY3KDNuH9r) | [Наша вики](https://wiki.adventurestation.space/Заглавная_страница) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14)
+## Links
+[Our Discord](https://discord.gg/NY3KDNuH9r) | [Our wiki](https://wiki.adventurestation.space/Заглавная_страница) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Non-Steam client](https://spacestation14.io/about/nightlies/) | [Upstream repository](https://github.com/space-wizards/space-station-14)
 
-[Наш Discord](https://discord.station14.ru) | [Наша Вики](https://wiki.station14.ru) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14)
+[Our Discord](https://discord.station14.ru) | [Our Wiki](https://wiki.station14.ru) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Non-Steam client](https://spacestation14.io/about/nightlies/) | [Upstream repository](https://github.com/space-wizards/space-station-14)
 
-## Документация
+## Documentation
 
-На официальном сайте с [документацией](https://docs.spacestation14.io/) имеется вся необходимая информация о контенте SS14, движке, дизайне игры и многом другом. Также имеется много информации для начинающих разработчиков.
+The official website has [documentation](https://docs.spacestation14.io/) with all the necessary information about SS14 content, the engine, game design, and much more. There is also plenty of information for beginner developers.
 
-## Контрибьют
+## Contributing
 
-Мы рады принять вклад от любого человека. Заходите в Discord, если хотите помочь. У нас есть [список проблем](https://github.com/space-syndicate/space-station-14-content/issues), которые нужно решить, и любой может за них взяться. Не бойтесь просить о помощи!
-Только убедитесь, что ваши изменения и PRы соответствуют [руководству по контрибьюту](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
+We are happy to accept contributions from anyone. Join our Discord if you want to help. We have an [issue list](https://github.com/space-syndicate/space-station-14-content/issues) that needs work, and anyone can pick one up. Don’t be afraid to ask for help!
+Just make sure your changes and PRs follow the [contribution guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
 
-## Сборка
-1. Клонируйте этот репозиторий локально.
-2. Запустите RUN_THIS.py для инициализации подмодулей и загрузки движка.
-3. Скомпилируйте проект с помощью команды dotnet build. 
+## Building
+1. Clone this repository locally.
+2. Run `RUN_THIS.py` to initialize submodules and download the engine.
+3. Compile the project using `dotnet build`.
 
-1. Склонируйте этот репозиторий локально
-2. Запустите `RUN_THIS.py` для инициализации подмодулей и скачивания движка.
-3. Скомпилируйте проект.
+1. Clone this repository locally.
+2. Run `RUN_THIS.py` to initialize submodules and download the engine.
+3. Build the project.
 
-[Более подробная инструкция по запуску проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
+[More detailed instructions for running the project.](https://docs.spacestation14.com/en/general-development/setup.html)
 
-## Лицензия
+## License
 
-Большинство ресурсов лицензированы по [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. У ресурсов есть собственная лицензия и информация об авторском праве в метаданных файла. [Пример](https://github.com/AdventureTimeSS14/space_station_ADT/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Most resources are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), unless stated otherwise. Resources have their own license and copyright information in the file metadata. [Example](https://github.com/AdventureTimeSS14/space_station_ADT/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
-Большинство ассетов лицензированы под [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. Ассеты имеют свою лицензию и авторские права в файле метаданных. [Пример](https://github.com/space-syndicate/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), unless stated otherwise. Assets have their own license and copyright information in the metadata file. [Example](https://github.com/space-syndicate/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
-Обратите внимание, что некоторые ассеты лицензированы на некоммерческой основе [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичной некоммерческой лицензией, и их необходимо удалить, если вы хотите использовать этот проект в коммерческих целях.
+Please note that some assets are licensed on a non-commercial basis under [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or a similar non-commercial license, and they must be removed if you want to use this project for commercial purposes.
